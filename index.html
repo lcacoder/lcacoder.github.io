@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Lee Chau's Porfolio</span>
-        <span class="d-none d-lg-block">
+        <span>
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
       </a>
@@ -266,33 +266,55 @@
 
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto" style="max-width: 50%; max-height: 100%;position: relative;">
-          <h2 class="mb-5">Personal Projects </h2>
-          <div class="subheading mb-3"></div>
-            <div class="card mb-4 rounded-3 shadow-sm" style="border-color: black;">
-              <div class="card-header py-3 text-bg-primary " style="border-color: black;">
-                <h4 class="my-0 fw-normal">LC MOTORBIKE (In Progress)</h4>
+      <section class="resume-section p-3 p-lg-5" id="interests">
+        <!-- Site Title -->
+        <h2 class="mb-5">Personal Projects</h2>
+        
+        <!-- Projects Container -->
+        <div style="display: flex; justify-content: space-between; gap: 20px;">
+          <!-- Project 1 -->
+          <div class="my-auto" style="flex: 1; max-width: 48%; display: flex; flex-direction: column;">
+            <div class="card mb-4 rounded-3 shadow-sm h-100" style="border-color: black;">
+              <div class="card-header py-3 text-bg-primary" style="border-color: black;">
+                <h4 class="my-0 fw-normal">LC MOTORBIKE</h4>
               </div>
-              <img src="img/project-1.png" alt="Project 1" style="width: 100%;">
+              <div style="width: 100%; height: 300px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa;">
+                <img src="img/project-1.png" alt="Project 1" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+              </div>
               <div class="card-body">
                 <ul class="fa-ul mb-0">
                   <li>
                     <i class="fa-li fa fa-circle"></i>
-                    An E-commerce site built by applied .NetCore (7.0), Angular, NodeJS (NPM), TypeScript.
-                    It includes almost shopping and membership features of an e-commerce site: filtering, sorting, shopping cart, sign up, login, etc.                  
-
-                  </li>                  
+                    An E-commerce site built by applied .NetCore (7.0), Angular, NodeJS (NPM), TypeScript. Includes shopping and membership features like filtering, sorting, shopping cart, sign-up, login, etc.
+                  </li>
                 </ul>
-                <br>
-                  <div style="display: flex; justify-content: center;">
-                    <button type="button" class="btn btn-lg btn-primary" style="background-color: black; border-color: black;"
-                    onclick="location.href='https://github.com/lcacoder/LCMOTORBIKE'">GitHub</button>
-                </div>
               </div>
-            </div>    
+            </div>
+          </div>
+        
+          <!-- Project 2 -->
+          <div class="my-auto" style="flex: 1; max-width: 48%; display: flex; flex-direction: column;">
+            <div class="card mb-4 rounded-3 shadow-sm h-100" style="border-color: black;">
+              <div class="card-header py-3 text-bg-primary" style="border-color: black;">
+                <h4 class="my-0 fw-normal">FizzBuzzGame</h4>
+              </div>
+              <div style="width: 100%; height: 300px; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa;">
+                <img src="img/proj2-1.png" alt="Project 2" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+              </div>
+              <div class="card-body">
+                <ul class="fa-ul mb-0">
+                  <li>
+                    <i class="fa-li fa fa-circle"></i>
+                    A basic FizzBuzz game application built by applied ReactJS, TypeScript, .NET7, NodeJS. It has a friendly user interface and easy to play structure.The app 
+                    uses SQL server for database management.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
